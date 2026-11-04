@@ -9,7 +9,7 @@
 //   ① #define の行をどう直せば16になる？ 04-square-macro.c と見比べて直す
 // ==================================================
 #include <stdio.h>
-#define SQUARE(a) (a * a)   /* カッコを外した */
+#define SQUARE(a) ((a) * (a))
 
 int main(void)
 {
