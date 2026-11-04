@@ -14,6 +14,8 @@
 int main(void)
 {
     int r = 3;
-    printf("2乗は%dです。\n", SQUARE(r));
+    double d = 2.5;
+    printf("2乗は%dです。\n", SQUARE(r + 1));
+    printf("2乗は%fです。\n", SQUARE(d));
     return 0;
 }
